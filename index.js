@@ -1,8 +1,8 @@
 var cart = []
- function setCart(newCart) {	
-  cart = newCart;	 
+ function setCart(newCart) {
+  cart = newCart;
    return t
-}	
+}
 
  function getCart(){
   return cart
