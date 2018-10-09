@@ -32,7 +32,7 @@ function viewCart() {
     }
 
 function total() {
-let t= 0 
+let t= 0
 return t
  }
 
