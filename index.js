@@ -12,12 +12,12 @@ function setCart(c) {
 function addToCart(item) {
  var price = Math.floor(Math.random() * 100) + 1;
  //price is random nondecimal number b/w 1 & 100
- var itemName = {};
- itemName[item] = price
-var itemPrice = {itemName: price};
-cart.push(itemPrice);
-console.log(`${item} has been added to your cart.`);
-return cart;
+   var item_object = {};
+   item_object[item] = price
+   cart.push(item_object)
+   console.log(item + " has been added to your cart.");
+   return cart
+ }
 }
 function viewCart() {
   // write your code here
