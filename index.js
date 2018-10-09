@@ -12,8 +12,8 @@ function setCart(c) {
 function addToCart(item) {
  var price = Math.floor(Math.random() * 100) + 1;
  //price is random nondecimal number b/w 1 & 100
- var itemObject = {};
-cart.push([{itemObject: price}]);
+ var itemName = {};
+cart.push([{itemName: price}]);
 console.log(`${item} has been added to your cart.`);
 }
 function viewCart() {
