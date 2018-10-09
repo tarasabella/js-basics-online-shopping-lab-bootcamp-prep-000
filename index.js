@@ -1,11 +1,11 @@
-var cart = []
+var cart;
+"use strict"
+ var cart = [];
+ function getCart() {
+  return cart;
+}
  function setCart(newCart) {
   cart = newCart;
-   return t
-}
-
- function getCart(){
-  return cart
 }
  function addToCart(item){
 var price = Math.floor(Math.random()*99)
